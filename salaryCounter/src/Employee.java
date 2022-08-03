@@ -5,9 +5,7 @@ public class Employee {
     int hireYear;
     double increase;
     double tax;
-
-
-    Employee e1;
+  
 
     Employee(String name, int salary, int workHoursWeekly, int hireYear) {
         this.name = name;
