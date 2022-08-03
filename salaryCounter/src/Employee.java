@@ -4,8 +4,7 @@ public class Employee {
     int workHoursWeekly;
     int hireYear;
     double increase;
-    double tax;
-  
+      
 
     Employee(String name, int salary, int workHoursWeekly, int hireYear) {
         this.name = name;
@@ -18,10 +17,9 @@ public class Employee {
     double tax() {
         if (this.salary <= 1000) {
             return 0;
-        } else {
-            tax = this.salary * 0.03;
+        } else {           
 
-            return tax;
+            return this.salary * 0.03;
         }
     }
 
@@ -56,7 +54,7 @@ public class Employee {
         System.out.println("Tax : " + tax());
         System.out.println("Bonus : " + this.bonus());
         System.out.println("Increase : " + this.raiseSalary());
-        this.salary = this.salary - tax + raiseSalary() + bonus();
+        this.salary = this.salary - tax() + raiseSalary() + bonus();
         System.out.println("Salary: " + this.salary);
 
 
