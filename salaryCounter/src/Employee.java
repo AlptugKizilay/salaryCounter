@@ -64,8 +64,5 @@ public class Employee {
 
     }
 
-//raiseSalary() : Çalışanın işe başlangıç yılına göre maaş artışını hesaplayacaktır. Şuan ki yılı 2021 olarak alın.
-//    Eğer çalışan 10 yıldan az bir süredir çalışıyorsa maaşına %5 zam yapılacaktır.
-//    Eğer çalışan 9 yıldan fazla ve 20 yıldan az çalışıyorsa maaşına %10 zam yapılacaktır.
-//    Eğer çalışan 19 yıldan fazla çalışıyorsa %15 zam yapılacaktır.
+
 }
